@@ -12,10 +12,8 @@ public class DollarsDispenser20 extends Dispenser {
         if(currency.getMoney() >= 20){
             int num = currency.getMoney()/20;
             int remainder = currency.getMoney() % 20;
-            System.out.println("Dispensing "+num+" 20$ note");
-            if(remainder !=0) this.chain.getAmount(new Currency(remainder));
-        }else{
-            this.chain.getAmount(currency);
+            System.out.println(num+" 20$ Dollars");
+            if(remainder !=0) chain.getAmount(new Currency(remainder));
         }
     }
 }

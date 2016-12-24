@@ -3,7 +3,7 @@
  */
 public class Main {
     public static void main(String[] args) {
-        ATM atm = new ATM(180);
+        ATM atm = new ATM(230);
         atm.moneyGiving();
     }
 }
