@@ -2,6 +2,9 @@
  * Created by jlaba on 24.12.2016.
  */
 public class DollarsDispenser10 extends Dispenser {
+    /**
+     * Give to a customer 10 dollars bills
+     */
     private Dispenser chain;
 
     public void setNext(Dispenser nextChain) {

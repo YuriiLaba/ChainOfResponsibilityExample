@@ -2,6 +2,9 @@
  * Created by jlaba on 24.12.2016.
  */
 public class DollarsDispenser50 extends Dispenser {
+    /**
+     * Give to a customer 50 dollars bills
+     */
 
     private Dispenser chain;
 

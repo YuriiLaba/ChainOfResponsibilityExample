@@ -2,6 +2,9 @@
  * Created by jlaba on 24.12.2016.
  */
 public class ATM {
+    /**
+     * Take care about order of bills
+     */
     int money;
 
     public ATM(int money){
